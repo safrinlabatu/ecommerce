@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-box {
+    background-color: rgba(193, 153, 123, 0.56);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .top-txt {
+      color: #7F4E2A;
+      font-family: Merriweather, sans-serif;
+      font-size: 24px;
+      align-self: center;
+      margin: 0 auto;
+
+  }
+
+  .nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 78px;
+  }
+
+  .logo {
+      display: flex;
+      justify-self: end;
+  }
+
+  .navbar {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background-color: #FFFFFF;
+      width: 100%;
+      height: 78px;
+  }
+
+  .search_icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .logo {
+
+  }
+
+  .nav_links {
+      margin-right: 40px;
+      align-self: center;
+      font-family: Lato;
+      font-size: 18px;
+      text-decoration: none;
+      color: #47525E;
+  }
+
+  .active {
+      background-color: rgb(220,198,181);
+      color:#47525E;
+      padding-top: 29px;
+      padding-bottom: 29px;
+      padding-left: 19px;
+      padding-right: 19px;
+  }
+
+  .dropdown {
+      font-family: Lato, sans-serif;
+      font-size: 18px;
+      color: #47525E;
+  }
+  
+  .button {
+      margin-right: 15px;
+      /* align-self: flex-end; */
+      justify-self: end;
+      font-family: Lato, sans-serif;
+      font-size: 16px;
+      padding: 5px;
+      color: white;
+      background-color: #AD876B;
+      border: none;
+      border-radius: 5px;
+      width: 75px;
+      height: 35px;
+      cursor: pointer;
+  }
+
+  .under-nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding-bottom: 15px;
+  }
+
+  .under-nav h1 {
+    color: #47525E;
+    font-family: Merriweather;
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 52px;
+    text-align: center;
+  }
+
+  .under-nav p {
+    color: #47525E;
+    font-family: Merriweather;
+    font-size: 13px;
+    line-height: 16px;
+    width: 232px;
+    text-align: center;
+  }
+
+  .main {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(107, 74, 49, 0.07);
+      width: auto;
+      height: auto;
+  }
+
+  .images {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-template-rows: auto auto auto;
+      grid-column-gap: 70px;
+      padding-top: 20px;
+  } 
+
+  .images-1 {
+      margin-left: 20px;
+  }
+
+  .images img {
+    width: 350px;
+    /* height: auto; */
+  }
+
+  .footer {
+      /* display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-content: space-between;
+      margin-top: 20px; */
+      display: grid;
+      grid-template-columns: 30% 10% 17%;
+      grid-template-rows: auto auto auto;
+      grid-column-gap: 200px;
+      margin-top: 20px
+  }
+
+  .footer h2, p {
+      font-family: Lato, sans-serif;
+      color: #47525E;
+  }
+
+  .aboutus {
+      width: 450px;
+      height: 176px;
+      justify-self: left;
+      align-self: flex-start;
+      padding-left: 15px;
+      /* background-color: yellow; */
+  }
+
+  .aboutus h2 {
+      font-size: 26px;
+      padding-bottom: 12px;
+  }
+
+  .aboutus p {
+      font-size: 16px;
+  }
+
+  .social {
+      /* background-color: thistle; */
+      justify-self: center;
+      align-self: center;
+  }
+
+  .social h2 {
+      font-size: 16px;
+  }
+
+  /* Style all font awesome icons */
+.fa {
+    background-color: none;
+    padding: none;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 20px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    color:#47525E;
+    width: 50px;
+    text-align: left;
+  }
+
+  .fa-instagram {
+    color:#47525E;
+    width: 50px;
+    text-align: left;
+  }
+
+  .subscribe {
+      display: flex;
+      flex-direction: column;
+      /* background-color: violet; */
+      justify-self: flex-end;
+      padding-top: 40px;
+      padding-right: 90px;
+  }
+
+  .subscribe p {
+      font-size: 16px;
+  }
+
+  .subscribe input {
+      width: 155px;
+      height: 27px;
+      margin-top: 2px;
+      border: white;
+  }
+
+  .subscribe button {
+      width: 110px;
+      height: 28px;
+      margin-top: 12px;
+      background-color: #B8977E;
+      color: #47525E;
+      border: none;
+  }
+
+  .copyright {
+      margin-bottom: 10px;
+  }
